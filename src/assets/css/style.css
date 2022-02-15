@@ -30,7 +30,7 @@
     vertical-align: baseline;
 }
 body {
-    font-family: "poopins", sans-serif;
+    font-family: "poopins", sans-serif !important;
     color: rgba(0,0,0,0.8);
     font-weight: 400;
     font-style: normal;
@@ -1455,7 +1455,7 @@ a.play-video::after {
 }
 .owl-carousel .user-image img {
     border-radius: 100%;
-    width: 80px;
+    width: 80px !important;
 }
 .owl-carousel .owl-dots .owl-dot:before {
     top: 2px;
