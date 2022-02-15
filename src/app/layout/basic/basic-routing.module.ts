@@ -35,7 +35,7 @@ const routes: Routes = [
           ),
       },
       {
-        path: 'service',
+        path: 'services',
         loadChildren: () =>
           import('../../service/service.module').then((m) => m.ServiceModule),
       },
